@@ -12,7 +12,7 @@ const router = new VueRouter({
   hash: false,
   routes // short for `routes: routes`
 });
-
+ 
 router.afterEach((to) => {
   console.log(to);
 
